@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePattern", "SimplePattern\SimplePattern.csproj", "{3E39EB7C-0823-496E-9703-C0ED473D20B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePattern", "SimplePattern\SimplePattern.csproj", "{3E39EB7C-0823-496E-9703-C0ED473D20B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{29677D15-F0BA-41C3-B410-2F67C1B7AD07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{29677D15-F0BA-41C3-B410-2F67C1B7AD07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{89848EB2-38C8-4DB1-9B6E-3D826D4CDE5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{89848EB2-38C8-4DB1-9B6E-3D826D4CDE5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{34B041F5-203F-4F67-9594-315DA3AEDB79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{34B041F5-203F-4F67-9594-315DA3AEDB79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{D492315A-D9C8-49E5-B7B7-B6F62BC03A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{D492315A-D9C8-49E5-B7B7-B6F62BC03A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{A5FE432F-0AB0-4438-8667-915FD9756D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalClient", "GlobalClient\GlobalClient.csproj", "{45577FD2-E152-4276-A478-E6EF91D6C6CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{D492315A-D9C8-49E5-B7B7-B6F62BC03A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D492315A-D9C8-49E5-B7B7-B6F62BC03A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D492315A-D9C8-49E5-B7B7-B6F62BC03A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FE432F-0AB0-4438-8667-915FD9756D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FE432F-0AB0-4438-8667-915FD9756D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FE432F-0AB0-4438-8667-915FD9756D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FE432F-0AB0-4438-8667-915FD9756D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45577FD2-E152-4276-A478-E6EF91D6C6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45577FD2-E152-4276-A478-E6EF91D6C6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45577FD2-E152-4276-A478-E6EF91D6C6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45577FD2-E152-4276-A478-E6EF91D6C6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
