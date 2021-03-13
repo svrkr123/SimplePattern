@@ -13,13 +13,13 @@ namespace SimplePattern.Controllers
     [ApiController]
     public class DapperController : ControllerBase
     {
-        private readonly IUnitOfWork _uow;
+        //private readonly IUnitOfWork _uow;
         private readonly IMapper _mapper;
         private readonly IDapperService<DapperDto> _dapperService;
 
-        public DapperController(IUnitOfWork uow, IMapper mapper, IDapperService<DapperDto> dapperService)
+        public DapperController(IMapper mapper, IDapperService<DapperDto> dapperService)
         {
-            _uow = uow;
+            //_uow = uow;
             _mapper = mapper;
             _dapperService = dapperService;
         }
